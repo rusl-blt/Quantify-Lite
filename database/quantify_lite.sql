@@ -118,9 +118,9 @@ CREATE TABLE IF NOT EXISTS sale_items (
 -- Insert default admin user
 -- Password: admin123 (hashed with bcrypt)
 INSERT INTO users (username, password, full_name, email, role, phone) VALUES
-('admin', '$2a$10$8K1p/a0dL3LKkOKhF3YdWO7QCQcL7t7LrGCLaYLO9YQqhWXmJqYmC', 'Administrator', 'admin@quantifylite.com', 'admin', '555-0001'),
-('manager1', '$2a$10$8K1p/a0dL3LKkOKhF3YdWO7QCQcL7t7LrGCLaYLO9YQqhWXmJqYmC', 'John Manager', 'manager@quantifylite.com', 'manager', '555-0002'),
-('cashier1', '$2a$10$8K1p/a0dL3LKkOKhF3YdWO7QCQcL7t7LrGCLaYLO9YQqhWXmJqYmC', 'Jane Cashier', 'cashier@quantifylite.com', 'cashier', '555-0003');
+('admin', '$2a$10$KWcQDh/zzlsT9DKgwD2ArOh3SZzeccKrYpiO2.ixFYUSSHIaiOV.u', 'Administrator', 'admin@quantifylite.com', 'admin', '555-0001'),
+('manager1', '$2a$10$KWcQDh/zzlsT9DKgwD2ArOh3SZzeccKrYpiO2.ixFYUSSHIaiOV.u', 'John Manager', 'manager@quantifylite.com', 'manager', '555-0002'),
+('cashier1', '$2a$10$KWcQDh/zzlsT9DKgwD2ArOh3SZzeccKrYpiO2.ixFYUSSHIaiOV.u', 'Jane Cashier', 'cashier@quantifylite.com', 'cashier', '555-0003');
 
 -- Insert categories
 INSERT INTO categories (category_name, description) VALUES
